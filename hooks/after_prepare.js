@@ -6,8 +6,6 @@ module.exports = function(context) {
         Q                 = require('q'),
         cordova_util      = context.requireCordovaModule('cordova-lib/src/cordova/util'),
         platforms         = context.requireCordovaModule('cordova-lib/src/platforms/platforms'),
-        Parser            = context.requireCordovaModule('cordova-lib/src/cordova/metadata/parser'),
-        ParserHelper      = context.requireCordovaModule('cordova-lib/src/cordova/metadata/parserhelper/ParserHelper'),
         ConfigParser      = context.requireCordovaModule('cordova-common').ConfigParser;
 
     var deferral = new Q.defer();
